@@ -25,7 +25,8 @@ let package = Package(
             name: "RKPhotoBrowserSwift",
             dependencies: ["RKPhotoBrowserObjC"],
             path: "Sources/RKPhotoBrowserSwift",
-            resources: [.process("SKPhotoBrowser.bundle")]),
+            resources: [.process("Resources")]
+        ),
         .target(
               name: "RKPhotoBrowserObjC",
               dependencies: [],

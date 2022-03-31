@@ -33,7 +33,7 @@ class SKButton: UIButton {
         translatesAutoresizingMaskIntoConstraints = true
         autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin, .flexibleTopMargin]
         
-        let image = UIImage(named: "SKPhotoBrowser.bundle/images/\(imageName)", in: .module, compatibleWith: nil) ?? UIImage()
+        let image = UIImage(named: imageName, in: .module, compatibleWith: nil) ?? UIImage()
         setImage(image, for: .normal)
     }
   

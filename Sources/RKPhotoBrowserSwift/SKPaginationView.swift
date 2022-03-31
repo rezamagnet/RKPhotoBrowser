@@ -143,7 +143,7 @@ class SKPaginationButton: UIButton {
                             .flexibleTopMargin]
         contentMode = .center
         
-        let image = UIImage(named: "SKPhotoBrowser.bundle/images/\(imageName)",
+        let image = UIImage(named: imageName,
                             in: .module, compatibleWith: nil) ?? UIImage()
         setImage(image, for: .normal)
     }
