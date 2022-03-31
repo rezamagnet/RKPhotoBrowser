@@ -30,7 +30,8 @@ let package = Package(
         .target(
               name: "RKPhotoBrowserObjC",
               dependencies: [],
-              path: "Sources/RKPhotoBrowserOBJC"),
+              path: "Sources/RKPhotoBrowserOBJC",
+              exclude: ["RKPhotoBrowserSwift"]),
         .testTarget(
             name: "RKPhotoBrowserTests",
             dependencies: ["RKPhotoBrowserSwift"]),
